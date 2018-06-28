@@ -2,50 +2,62 @@
 [
  {
      "id":1,
-    "image": "./images/agentCooper.jpg"
+    "image": "./images/agentCooper.jpg",
+    "clicked": false
  },
  {
     "id":2,
-   "image": "./images/audrey.jpg"
+   "image": "./images/audrey.jpg",
+   "clicked": false
 },
 {
     "id":3,
-   "image": "./images/Bobby.jpg"
+   "image": "./images/Bobby.jpg",
+   "clicked": false
 },   
 {
     "id":4,
-   "image": "./images/Donna.png"
+   "image": "./images/Donna.png",
+   "clicked": false
 },
 {
     "id":5,
-   "image": "./images/donut.jpg"
+   "image": "./images/donut.jpg",
+   "clicked": false
 },
 {
     "id":6,
-   "image": "./images/Harry.jpg"
+   "image": "./images/Harry.jpg",
+   "clicked": false
 },
 {
     "id":7,
-   "image": "./images/Jacoby.jpg"
+   "image": "./images/Jacoby.jpg",
+   "clicked": false
 },
 {
     "id":8,
-   "image": "./images/Laura.jpg"
+   "image": "./images/Laura.jpg",
+   "clicked": false
 },
 {
     "id":9,
-   "image": "./images/Leo.jpg"
+   "image": "./images/Leo.jpg",
+   "clicked": false
 },
 {
     "id":10,
-   "image": "./images/LogLady.jpg"
+   "image": "./images/LogLady.jpg",
+   "clicked": false
 },
 {
     "id":11,
-   "image": "./images/Pete.jpg"
+   "image": "./images/Pete.jpg",
+   "clicked": false
 },
 {
     "id":12,
-   "image": "./images/pie.jpg"
+   "image": "./images/pie.jpg",
+   "clicked": false
 }
 ]

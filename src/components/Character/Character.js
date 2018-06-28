@@ -5,7 +5,8 @@ import "./Character.css";
 
 const Character = props => (
     <div>
-    <img src={props.image} alt={props.image}></img>
+   <a onClick={()=> props.click(props.id)}><img src={props.image} alt={props.image}/>
+    </a>
     </div>
 );
 

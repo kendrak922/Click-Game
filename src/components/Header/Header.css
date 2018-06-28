@@ -1,12 +1,20 @@
 .App-header {
-    background-image: url(../../../public/images/welcome.jpg);
-    background-repeat: no-repeat;
+    background-image: url(./welcome.jpg);
+    background-size: cover;
     font-family: 'Didact Gothic', sans-serif;
     height: 150px;
     padding: 20px;
     padding-bottom: 40px;
     color: brown;
     text-shadow: -1.5px 0 green, 0 1.5px green, 1.5px 0 green, 0 -1.5px green;
+  }
+  .score{
+    float: right;
+    margin: 20px;
+  }
+  .highScore{
+    float: right;
+    margin: 20px;
   }
   
   .App-title {
