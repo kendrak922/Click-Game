@@ -14,35 +14,30 @@ state = {
 };
 
 componentDidMount = () => {
-  this.shuffleArray(this.state.people);
+  this.shuffleArray(people);
 };
 
 shuffleArray = (peopleArray)=>{
-  let copy= [], n = peopleArray.length, i;
-while(n){
-  i = Math.floor(Math.random() * peopleArray.length)
-if (i in peopleArray){
-  copy.push(peopleArray[i])
-  delete peopleArray[i];
-  n--;
+for(let i =peopleArray.length -1; i>0; i--){
+let j = Math.floor(Math.random() * (i + 1));
+[peopleArray[i], peopleArray[j]] = [peopleArray[j], peopleArray[i]]
 }
-
-}
-this.setState({people: copy})
 }
 
 click = (id) => {
-this.shuffleArray(this.state.people);
+  this.shuffleArray(people);
 if (!this.state.people.clicked){
 this.setState({clicked: "true"})
 this.setState((prevState) => { 
     return {score: prevState.score  + 1};
+
   });
 
 } else {
   this.setState(() => { 
   return {score: 0};
 });
+
 }
 // const setClick = this.state.people.filter(person => person.id === id)
 // 
