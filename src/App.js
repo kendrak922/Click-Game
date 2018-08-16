@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import Character from './components/Character';
-import Wrapper from './components/Wrapper';
 import people from './characters.json'
+import Wrapper from './components/Wrapper'
+import Character from './components/Character'
 import './App.css';
 
 class App extends Component {
@@ -18,7 +18,7 @@ componentDidMount = () => {
 };
 
 shuffleArray = (peopleArray)=>{
-for(let i =peopleArray.length -1; i>0; i--){
+for(let i = peopleArray.length -1; i>0; i--){
 let j = Math.floor(Math.random() * (i + 1));
 [peopleArray[i], peopleArray[j]] = [peopleArray[j], peopleArray[i]]
 }
